@@ -1,3 +1,6 @@
 [//]: # "https://mybinder.org/v2/gh/enriqueartal/AnOrbifoldFundamentalGroup/master?filepath=Orbifold235.ipynb>"
+# Orbifold fundamental groups
+
+In the work in progress *Cremona transformations of weighted projective planes, Zariski pairs, and rational cuspidal curves*, joint work with J.I. Cogolludo and J. Martín-Morales, we work with an orbifold fundamental group and we claim it is infinite. The cumbersome details are found in this jupyter notebook.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/enriqueartal/AnOrbifoldFundamentalGroup/master?filepath=Orbifold235.ipynb)
