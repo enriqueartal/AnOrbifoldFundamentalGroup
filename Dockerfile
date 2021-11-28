@@ -1,4 +1,4 @@
-FROM sagemath/sagemath:9.2
+FROM sagemath/sagemath-dev:develop
 #FROM sagemathinc/cocalc:latest
 
 # Make sure the contents of the repository is in ${HOME}
