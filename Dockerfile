@@ -1,6 +1,6 @@
 #FROM computop/sage:9.5b7
-#FROM sagemathinc/cocalc:latest
-FROM denmor/sagemath-jupyterlab:latest
+FROM sagemathinc/cocalc:latest
+#FROM denmor/sagemath-jupyterlab:latest
 
 #USER root
 #RUN apt-get -qq update \
