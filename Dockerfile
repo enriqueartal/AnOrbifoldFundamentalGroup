@@ -1,4 +1,4 @@
-#FROM computop/sage:latest
+FROM computop/sage:latest
 #FROM sagemathinc/cocalc:latest
 #FROM denmor/sagemath-jupyterlab:latest
 #FROM ucsdets/sagemath-notebook:latest
