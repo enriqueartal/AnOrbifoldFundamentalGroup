@@ -25,15 +25,4 @@ RUN mkdir -p $(jupyter --data-dir)/kernels
 RUN ln -s /sage/venv/share/jupyter/kernels/sagemath $(jupyter --data-dir)/kernels
 
 # Start in the home directory of the user
-WORKDIR /home/${NB_USER} ${HOME}/
-RUN chown -R ${NB_USER}:${NB_USER} ${HOME}
-
-# Switch to the user
-USER ${NB_USER}
-
-# Install Sage kernel to Jupyter
-RUN mkdir -p $(jupyter --data-dir)/kernels
-RUN ln -s /sage/venv/share/jupyter/kernels/sagemath $(jupyter --data-dir)/kernels
-
-# Start in the home directory of the user
 WORKDIR /home/${NB_USER}
